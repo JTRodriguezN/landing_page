@@ -1,184 +1,73 @@
-html {
-    background-color: #ffd645;
+.container {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #FFD645
 }
 
-.fresh {
-    position: absolute;
-width: 84px;
-height: 38px;
-left: 49px;
-top: 39px;
-
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 38px;
-
-letter-spacing: -0.145em;
-
-color: #FFFFFF;
-
--webkit-text-stroke: 1px rgb(0, 0, 0);
+.flex {
+    display: flex;
+    flex-direction: row;
 }
 
-.opcions {
-    position: absolute;
-width: 755px;
-height: 31px;
-left: 342px;
-top: 41px;
+header {
+    padding: 40px;
+    height: 100px;
 }
 
-.liniablava {
-position: absolute;
-width: 92px;
-height: 0px;
-left: 342px;
-top: 72px;
-
-border: 2px solid #002AFF;
+.flex-center {
+    justify-content: center;
 }
 
-.shop_now {
-    position: absolute;
-width: 155px;
-height: 13px;
-left: 342px;
-top: 43px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 76.3%;
-
-letter-spacing: -0.03em;
-
-color: #0028F8;
+header>div {
+    width:200px;
 }
 
-.about_us {
-
-position: absolute;
-width: 155px;
-height: 13px;
-left: 492px;
-top: 44px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 76.3%;
-
-/* or 15px */
-letter-spacing: -0.03em;
-
-color: #686868;
+div {
+    display: block;
 }
 
-.our_recipies {
-    position: absolute;
-width: 155px;
-height: 13px;
-left: 642px;
-top: 41px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 76.3%;
-
-/* or 15px */
-letter-spacing: -0.03em;
-
-color: #686868;
-
-
+header>:nth-child(2) {
+    width: 960px;
 }
 
-.instore {
-
-position: absolute;
-width: 81px;
-height: 13px;
-left: 811px;
-top: 45px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 76.3%;
-
-/* or 15px */
-letter-spacing: -0.03em;
-
-color: #686868;
+.menu {
+    text-align: center;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:76.3%;
+    letter-spacing: -0.03em;
+    color: #686868
 }
 
-.whats_new {
-    position: absolute;
-width: 155px;
-height: 13px;
-left: 942px;
-top: 43px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 76.3%;
-
-/* or 15px */
-letter-spacing: -0.03em;
-
-color: #686868;
+.menu a {
+    padding: 0 15px;
 }
 
-.cercle {
-    position: absolute;
-left: 5%;
-right: 15%;
-top: 5%;
-bottom: 15%;
-border: 2px solid #FFFFFF;
-border-radius: 100%;
-padding: 3px;
-
+.active {
+    color: #0028F8;
 }
 
-.liniablanca {
-    position: absolute;
-left: 69.37%;
-right: 12.5%;
-top: 69.38%;
-bottom: 12.5%;
+a {
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+}
 
-border: 2px solid #FFFFFF;
-position: absolute;
-width: 36px;
-height: 36px;
-left: 1192px;
-top: 36px;
+i {
+    transition: all .2s ease-in-out;
 }
 
 .lemonade {
-    width: 1052px;
-height: 611px;
-left: 194px;
-top: 215px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 700;
-font-size: 350px;
-line-height: 76.3%;
-
-/* or 267px */
-letter-spacing: -0.03em;
-
-color: #F4EBCB;
+    color: #F4EBCB;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 350px;
+    line-height: 76.3%;
+    letter-spacing: -0.3em;
 }
